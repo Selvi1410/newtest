@@ -1,14 +1,12 @@
 variable "aws_region" {
   description = "AWS region"
-  type = String
   default = "ap-southeast-1a"
 }
 
 variable "ami_id" {
   description = "ID of the AMI to provision"
-  type = String
   default = "ami-051f0947e420652a9"
-}
+
 
 variable "instance_type" {
   description = "type of EC2 instance to provision."
@@ -58,7 +56,7 @@ variable "Storage_type" {
 variable "Size" {
   description = "size of the Storage in GiB"
   type = number
-  ddefault = 80  
+  default = 80  
 }
 
 variable "File_Mount" {
