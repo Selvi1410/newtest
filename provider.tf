@@ -1,8 +1,10 @@
+# Terraform Block
 terraform {
+  required_version = "~> 0.14.4"
   required_providers {
-    aws = {
+    aws = { 
       source = "hashicorp/aws"
-      version = "4.32.0"
+      version = "~> 3.0"
     }
   }
 }
