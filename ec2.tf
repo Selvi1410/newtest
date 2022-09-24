@@ -3,7 +3,7 @@ resource "aws_instance""myec2" {
   instance_type = "var.instance_type"
  
 }
-tags = {
+  tags = {
     Name = "var.Name"
     Number_of_Instances ="var.number_of_Instances"
     Service_provide ="var.Service_provider"
