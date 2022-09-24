@@ -6,7 +6,7 @@ variable "aws_region" {
 variable "ami_id" {
   description = "ID of the AMI to provision"
   default = "ami-051f0947e420652a9"
-
+}
 
 variable "instance_type" {
   description = "type of EC2 instance to provision."
